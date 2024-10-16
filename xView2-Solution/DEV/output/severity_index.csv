@@ -1,0 +1,8 @@
+Pre-Disaster Image,Post-Disaster Image,Total Building Area,No Damage Area,Light Damage Area,Major Damage Area,Fully Destroyed Area,Severity Index
+test_localization_00000003_pre_disaster_prediction.png,test_damage_00000003_post_disaster_prediction.png,26041,25634,0,0,407,0.04688760032256826
+test_localization_00000004_pre_disaster_prediction.png,test_damage_00000004_post_disaster_prediction.png,152259,152259,0,0,0,0.0
+test_localization_00000011_pre_disaster_prediction.png,test_damage_00000011_post_disaster_prediction.png,323852,323852,0,0,0,0.0
+test_localization_00000105_pre_disaster_prediction.png,test_damage_00000105_post_disaster_prediction.png,207026,273,202614,4139,0,1.0186739829779834
+test_localization_00000113_pre_disaster_prediction.png,test_damage_00000113_post_disaster_prediction.png,33713,13807,0,19640,266,1.1887995728650669
+test_localization_00000163_pre_disaster_prediction.png,test_damage_00000163_post_disaster_prediction.png,352006,0,17384,334622,0,1.950614478162304
+test_localization_00000345_pre_disaster_prediction.png,test_damage_00000345_post_disaster_prediction.png,436126,0,436121,5,0,1.0000114645767508
