@@ -1,0 +1,13 @@
+# Ignore the following folders
+
+12misc/
+__pycache__/
+btp/
+apex/
+directory_checker.py
+misc/
+
+
+
+
+
