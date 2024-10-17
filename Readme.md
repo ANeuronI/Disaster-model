@@ -1,4 +1,4 @@
-# Project Title: Predicting the Severity of Damage Done by Natural Disasters Using Deep Learning
+# Project Title: Deep Image-based System for Assessment and Emergency Response for Devastated Environments
 
 ## Project Overview
 
