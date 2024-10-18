@@ -9,6 +9,7 @@ from Code.model_creater import load_modal,run_inference
 from Code.dataset_creater import save_uploaded_image
 from Code.mask_creater import mask_creater,Overlay_mask
 from Code.Severity_Index import Severity_Index_Predict,display_damage_table
+from Code.Report_generation import Chat_handler_function, Report_visualiser
 
 IMAGE_PATH = os.path.join('DEV', 'output', 'temp')
 PRE_IMAGE_MASK = os.path.join('DEV', 'output', 'predicted_weight_dominant_v2', 'localization')
@@ -87,6 +88,18 @@ def main():
                     Matrix_viewer(metrics,df)
                     # severity_prediction 
                     display_damage_table(severity_index=severity_index, damage_areas=damage_areas, total_building_area=Total_building_area)
+                    
+                st.markdown("<h4 style='text-align: center;'> Disaster Report and Assessment Generator </h4>", unsafe_allow_html=True)
+                with st.expander("  Assessment System : DRAG"):
+                    # Report Generation
+                    disaster_name  = os.path.basename(pre_disaster_image_path)
+                    disaster_name = disaster_name.split('_')[0] 
+                    
+                    report = Chat_handler_function(disaster_name,severity_index, damage_areas, Total_building_area)
+                    
+                    st.markdown("<h4 style='text-align: center;'> Disaster Report </h4>", unsafe_allow_html=True)
+                    
+                    Report_visualiser(report)
                 
 def Matrix_viewer(metrics, df):
     col1, col2, col3 = st.columns([2, 6, 2])
@@ -163,6 +176,7 @@ def Image_Viewer(Pre_image_path, Post_image_path):
             
             with col2:
                 st.image(Post_image_path, caption=post_image_file_name, use_column_width=True)
+
 
 if __name__ == "__main__":
     main()
