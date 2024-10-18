@@ -2,7 +2,7 @@ from groq import Groq
 import streamlit as st
 import re
 
-GROQ_APIKEYS = "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"
+GROQ_APIKEYS = ""
 client = Groq(api_key=GROQ_APIKEYS)
 
 # System prompt describing fuzzy logic rules for disaster assessment
