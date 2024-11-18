@@ -1,3 +1,4 @@
+# research paper link:
 
 [Google Scholar - Satellite Image + Disaster Severity](https://scholar.google.com/scholar?start=40&q=satellite+image+%2B+disaster+severity&hl=en&as_sdt=0,5&as_ylo=2020)
 
