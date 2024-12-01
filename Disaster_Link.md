@@ -1,3 +1,4 @@
+# research paper link:
 
 [Google Scholar - Satellite Image + Disaster Severity](https://scholar.google.com/scholar?start=40&q=satellite+image+%2B+disaster+severity&hl=en&as_sdt=0,5&as_ylo=2020)
 
@@ -18,3 +19,8 @@
 [IEEE Xplore - Satellite Data for Disaster Analysis](https://ieeexplore.ieee.org/abstract/document/10744598)
 
 [ScienceDirect - Environmental Monitoring and Assessment](https://www.sciencedirect.com/science/article/pii/S2212420921002077)
+
+
+# demo link :
+
+[Project Demo](https://drive.google.com/file/d/1draT_iINoxr58F7PaGc4GYEhGOvhlD6j/view?usp=sharing)
